@@ -46,6 +46,44 @@ const Feed = () => {
     }
   };
 
+<<<<<<< HEAD
+  // const handleUpvote = async (complaintId) => {
+  //   try {
+  //     const token = Cookies.get("tokenf");
+  //     if (!token) {
+  //       toast.error("Please login first");
+  //       return;
+  //     }
+  //     const decodedToken = jwtDecode(token);
+  //     const { id: userId } = decodedToken;
+
+  //     if (userUpvotedComplaints.includes(complaintId)) {
+  //       await axios.post(`${server}/downvoteComplaint/${userId}`, {
+  //         complaintId,
+  //       });
+  //     } else {
+  //       await axios.post(`${server}/upvoteComplaint/${userId}`, {
+  //         complaintId,
+  //       });
+  //     }
+
+  //     fetchCommonComplaints();
+  //   } catch (error) {
+  //     console.error("Error upvoting/downvoting complaint:", error);
+  //   }
+  // };
+
+  // const handleComment = (complaintId, comment) => {
+  //   // Implement comment functionality here
+  // };
+
+  return (
+    <div style={{ padding: "20px" }}>
+      <h1 style={{ marginBottom: "20px", textAlign: "center" }}>
+        Common Complaints Feed
+      </h1>
+      <Grid container spacing={3}>
+=======
   const handleUpvote = async (complaintId) => {
     try {
       const token = Cookies.get("tokenf");
@@ -82,6 +120,7 @@ const Feed = () => {
         Common Complaints Feed
       </h1>
       <Grid container spacing={5}>
+>>>>>>> 87cf9dc5fcbae85987f9fa8eb142e8a5258a3a03
         {commonComplaints.map((complaint) => (
           <Grid item xs={12} sm={6} md={4} key={complaint._id}>
             <Card
@@ -91,7 +130,10 @@ const Feed = () => {
                 justifyContent: "space-between",
                 height: "100%",
                 borderRadius: 10,
+<<<<<<< HEAD
+=======
                 width:"80%",
+>>>>>>> 87cf9dc5fcbae85987f9fa8eb142e8a5258a3a03
                 boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)",
                 transition: "0.3s",
                 "&:hover": {
@@ -101,12 +143,20 @@ const Feed = () => {
             >
               <CardMedia
                 component="img"
+<<<<<<< HEAD
+                height="140"
+                image={complaint.image || BannerImage}
+                alt="Complaint Image"
+              />
+              <CardContent>
+=======
                 // height="45"
                 image={complaint.image || BannerImage}
                 alt="Complaint Image"
                 style={{width:"80%",objectFit:"contain",margin:"auto",aspectRatio:"3/2"}}
               />
               <CardContent  style={{marginLeft:"20px"}}>
+>>>>>>> 87cf9dc5fcbae85987f9fa8eb142e8a5258a3a03
                 <Typography variant="h6" component="div">
                   {complaint.title}
                 </Typography>
