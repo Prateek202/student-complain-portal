@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 // import React, { useContext, useState } from "react";
 // import axios from "axios";
 
@@ -225,6 +226,8 @@
 // export default SignupPage;
 
 
+=======
+>>>>>>> 87cf9dc5fcbae85987f9fa8eb142e8a5258a3a03
 import React, { useContext, useState } from "react";
 import axios from "axios";
 
@@ -464,6 +467,7 @@ const Signup = () => {
               </label>
             </div>
   
+<<<<<<< HEAD
             {/* <div class="col-span-6">
               <p class="text-sm text-gray-500">
                 By creating an account, you agree to our
@@ -473,6 +477,8 @@ const Signup = () => {
               </p>
             </div> */}
   
+=======
+>>>>>>> 87cf9dc5fcbae85987f9fa8eb142e8a5258a3a03
             <div class="col-span-6  mt-3 sm:flex sm:items-center sm:gap-4">
               <button
                type="submit"

@@ -21,19 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
-
-# Environment variables
-.env
-
-# Editor directories and files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Temporary files
-.DS_Store
-Thumbs.db
-=======
->>>>>>> 87cf9dc5fcbae85987f9fa8eb142e8a5258a3a03

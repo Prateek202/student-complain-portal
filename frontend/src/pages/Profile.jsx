@@ -49,6 +49,10 @@ const Profile = () => {
   const hostelOptions = [
     "R.N. Tagore Hostel",
     "C.V. Raman Hostel",
+<<<<<<< HEAD
+=======
+    "S.V.B.H",
+>>>>>>> 87cf9dc5fcbae85987f9fa8eb142e8a5258a3a03
     "P.D. Tandon Hostel",
     "M.M. Malviya Hostel",
     "B.G. Tilak Hostel",
